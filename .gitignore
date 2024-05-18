@@ -1,0 +1,10 @@
+node_modules/*
+*node_modules
+
+#latex
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.synctex.gz
+*.out
