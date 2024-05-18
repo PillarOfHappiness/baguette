@@ -3,8 +3,8 @@
     "gh-pages": "^6.1.1"
   },
   "scripts": {
-    "predeploy": "node final/index.js",
-    "deploy": "gh-pages -d node final/index.js" 
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build" 
   },
   "homepage": "https://PillarOfHappiness.github.io/baguette/final"
 }
