@@ -4,7 +4,7 @@
   },
   "scripts": {
     "predeploy": "node final/index.js",
-    "deploy": "gh-pages -d final" 
+    "deploy": "gh-pages -d node final/index.js" 
   },
-  "homepage": "https://PillarOfHappiness.github.io/baguette/final"
+  "homepage": "https://PillarOfHappiness.github.io/baguette"
 }
